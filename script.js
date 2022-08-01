@@ -53,7 +53,7 @@ function randomAddition() {
         document.getElementById("score").innerText = `Your score: ${score}`;
 
     } else if (lives == 1 && addition != equationAnswer) {
-        window.alert(`Ouch! Looks like you're out of lives.\nYour score was ${score}`);
+        window.alert(`Ouch! Looks like you're out of lives.\nYour final score was ${score}.`);
         lives = 3;
         result = "";
         document.getElementById("lives").innerText = `Lives: ${lives}`;
@@ -114,7 +114,7 @@ function randomSubtraction() {
         document.getElementById("score").innerText = `Your score: ${score}`;
 
     } else if (lives == 1 && addition != equationAnswer) {
-        window.alert(`Ouch! Looks like you're out of lives.\nYour score was ${score}`);
+        window.alert(`Ouch! Looks like you're out of lives.\nYour final score was ${score}.`);
         lives = 3;
         result = "";
         document.getElementById("lives").innerText = `Lives: ${lives}`;
@@ -175,7 +175,7 @@ function randomMultiplication() {
         document.getElementById("score").innerText = `Your score: ${score}`;
 
     } else if (lives == 1 && addition != equationAnswer) {
-        window.alert(`Ouch! Looks like you're out of lives.\nYour score was ${score}`);
+        window.alert(`Ouch! Looks like you're out of lives.\nYour final score was ${score}.`);
         lives = 3;
         result = "";
         document.getElementById("lives").innerText = `Lives: ${lives}`;
