@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="Guide">
+        Please press on one of the buttons below to begin
+    </h1>
+    <button class="equation_buttons" onclick="randomAddition()">Addition</button>
+
+    <br>
+
+    <button class="equation_buttons" onclick="randomSubtraction()">Subtraction</button>
+    
+    <br>
+
+    <button class="equation_buttons" onclick="randomMultiplication()">Multiplication</button>
+
+
+    <h6 id="result">
+        <!-- Display result -->
+    </h6>
+
+    <h6 id="score">Your score: 0</h6>
+
+    <h6 id="lives">Lives: 3</h6>
+
+    <button id="instructions" onclick="instructions()">How to play</button>
+    
+    
+<script src="script.js"></script>
+</body>
+</html>
